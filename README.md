@@ -3,4 +3,4 @@ Estou com o objetivo de aumentar meu portifólio, e quero começar com projetos 
 >tecnologias utilizadas:
     
     
- python
+  python
