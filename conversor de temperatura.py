@@ -16,6 +16,7 @@ opcao = int(input("Opção: "))
 if opcao == 1:
     temp_fahrenheit = celsius_para_fahrenheit(temp_celsius)
     print(f"A temperatura em graus Fahrenheit é: {temp_fahrenheit}")
+    
 elif opcao == 2:
     temp_kelvin = celsius_para_kelvin(temp_celsius)
     print(f"A temperatura em Kelvin é: {temp_kelvin}")
