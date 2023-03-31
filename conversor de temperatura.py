@@ -11,12 +11,12 @@ temp_celsius = float(input("Digite a temperatura em graus Celsius: "))
 print("Escolha a unidade de destino para a conversão:")
 print("1 - Fahrenheit")
 print("2 - Kelvin")
-opcao = int(input("Opção: "))
+opcao = int(input("Opção:"))
 
 if opcao == 1:
     temp_fahrenheit = celsius_para_fahrenheit(temp_celsius)
     print(f"A temperatura em graus Fahrenheit é: {temp_fahrenheit}")
-    
+
 elif opcao == 2:
     temp_kelvin = celsius_para_kelvin(temp_celsius)
     print(f"A temperatura em Kelvin é: {temp_kelvin}")
